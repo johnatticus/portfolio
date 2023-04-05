@@ -3,7 +3,7 @@ import "./art.css";
 // import BigCode from "../../img/bigcode.jpg";
 // import SmallCode from "../../img/smallcode.jpg";
 import Me from "../../img/me.jpg"
-import Nav from "../nav/Nav";
+import Nav from "../../components/nav/Nav";
 
 const Art = () => {
   return (

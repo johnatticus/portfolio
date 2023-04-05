@@ -3,7 +3,7 @@ import "./about.css";
 // import BigCode from "../../img/bigcode.jpg";
 // import SmallCode from "../../img/smallcode.jpg";
 import Me from "../../img/me2.jpg"
-import Nav from "../nav/Nav";
+import Nav from "../../components/nav/Nav";
 
 const About = () => {
   return (

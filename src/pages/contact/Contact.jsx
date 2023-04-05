@@ -5,7 +5,7 @@ import SN from "../../img/socialnetwork.png";
 import Eats from "../../img/economiceats.png"
 import Folder from "../../img/folder_closed.png"
 import { useContext, useRef, useState } from "react";
-import Nav from "../nav/Nav";
+import Nav from "../../components/nav/Nav";
 // import emailjs from "emailjs-com";
 // import { ThemeContext } from "../../context";
 

@@ -12,9 +12,9 @@ const Examples = ({img,link,title,description}) => {
             <div className="p-circle-g"></div>
           </div>
       </div>
-      <a href={link} target="_blank" rel="noreferrer">
+      {/* <a href={link} target="_blank" rel="noreferrer"> */}
         <img src={img} alt="" className="p-img" />
-      </a>
+      {/* </a> */}
 
 {/* <!-- Modal --> */}
 <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">

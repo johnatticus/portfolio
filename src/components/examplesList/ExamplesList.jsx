@@ -1,7 +1,7 @@
 import React from 'react'
 import "./examplesList.css";
 import Examples from "../examples/Examples"
-import { examples } from "../../data";
+import { projects } from "../../data";
 import Nav from "../nav/Nav";
 
 export const ExamplesList = () => {
@@ -10,7 +10,7 @@ export const ExamplesList = () => {
      <Nav />
     <div className="pl">
       <div className="pl-list">
-        {examples.map((item) => (
+        {projects.map((item) => (
           <Examples key={item.id} img={item.img} link={item.link} title={item.title} description={item.description} />
         ))}
       </div>
@@ -19,5 +19,5 @@ export const ExamplesList = () => {
   );
 };
 
-console.log(examples);
+console.log(projects);
 export default ExamplesList;

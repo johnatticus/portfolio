@@ -9,7 +9,7 @@ export function NotFound() {
   useEffect(() => {
     setTimeout(() => {
       navigate(-1);
-    }, 2000);
+    }, 4000);
   }, []);
   return (
     <>

@@ -1,12 +1,12 @@
 import { Route, Routes} from "react-router-dom";
 
-import Home from "./components/home/Home";
-import About from "./components/about/About";
+import Home from "./pages/home/Home";
+import About from "./pages/about/About";
 import Nav from "./components/nav/Nav";
 import ExamplesList from "./components/examplesList/ExamplesList";
 import Examples from "./components/examples/Examples";
-import Art from "./components/art/Art";
-import Contact from "./components/contact/Contact";
+import Art from "./pages/art/Art";
+import Contact from "./pages/contact/Contact";
 import NotFound from "./pages/NotFound";
 import "./app.css"
 
