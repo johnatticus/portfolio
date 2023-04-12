@@ -3,7 +3,7 @@ import "./examples.css";
 
 const Examples = ({img,link,title,description}) => {
   return (
-    <div className="p" data-bs-toggle="modal" data-bs-target="#projectModal">
+    <div className="p">
       <div className="p-browser">
         <p>{title}</p>
           <div className="p-max-min">
@@ -17,7 +17,7 @@ const Examples = ({img,link,title,description}) => {
       {/* </a> */}
 
 {/* <!-- Modal --> */}
-<div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+{/* <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
@@ -33,7 +33,7 @@ const Examples = ({img,link,title,description}) => {
       </div>
     </div>
   </div>
-</div>
+</div> */}
 
     </div>
   );

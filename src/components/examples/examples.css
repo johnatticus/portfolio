@@ -57,6 +57,7 @@
     /* transition: all 10s ease; */
     opacity:0.25;
     transition: 1s ease;
+    cursor: pointer;
   }
   
   .p:hover .p-img {
