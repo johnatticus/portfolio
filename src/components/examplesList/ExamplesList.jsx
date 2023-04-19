@@ -14,10 +14,10 @@ export const ProjectList = () => {
     <>
     <Nav />
     <div className="pl">
+      <div className="pl-list">
       {projectModal && (
         <MyModal show={projectModal} item={projectModal} onClose={hideModal} />
       )}
-      <div className="pl-list">
         {projects.map((item, key) => (
           <Examples onClick={() => showModal(projects[item])} key={key} img={item.img} link={item.link} title={item.title} description={item.description} />
         ))}
