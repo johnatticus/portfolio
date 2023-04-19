@@ -5,7 +5,8 @@ import About from "./pages/about/About";
 import Nav from "./components/nav/Nav";
 // import ProjectList from "./components/examplesList/ExamplesList";
 import ProjectList from "./pages/projects/Projects";
-import Examples from "./components/examples/Examples";
+import Project from "./pages/project/Project";
+// import Examples from "./components/examples/Examples";
 import Art from "./pages/art/Art";
 import Contact from "./pages/contact/Contact";
 import NotFound from "./pages/NotFound";
@@ -18,7 +19,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/projects" element={<ProjectList />} />
-      <Route path="/projects/:id" element={<Examples />} />
+      <Route path="/projects/:id" element={<Project />} />
       <Route path="/art" element={<Art />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<NotFound />} />

@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 80vh;
   }
 
   .projects-window {
@@ -31,13 +32,14 @@
   .projects-max-min {
     display: flex ;
     flex-direction: row;
+    padding-right: .5rem;
   }
   
   .projects-circle-r {
     width: 12px;
     height: 12px;
     /* border-radius: 50%; */
-    margin: 3px 2px 3px 2px;
+    margin: 2px;
     background-color: rgb(190, 190, 190);
   }
 
@@ -45,7 +47,7 @@
     width: 12px;
     height: 12px;
     /* border-radius: 50%; */
-    margin: 3px 2px 3px 2px;
+    margin: 2px;
     background-color: rgb(190, 190, 190);
   }
 
@@ -53,7 +55,7 @@
     width: 12px;
     height: 12px;
     /* border-radius: 50%; */
-    margin: 3px 4px 3px 2px;
+    margin: 2px;
     background-color: rgb(190, 190, 190);
   }
 

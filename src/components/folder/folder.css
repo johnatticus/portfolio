@@ -9,10 +9,10 @@
 }
 
 .project-text span {
-    background-color: blue;
+    background-color: rgb(141, 141, 141);
     color: white;
     padding: 1px 3px;
-    font-size: medium;
+    font-size: small;
   }
 
 

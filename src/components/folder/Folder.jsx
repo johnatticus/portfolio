@@ -1,14 +1,15 @@
-import Folder from "../../img/projects.png";
+import FolderIcon from "../../img/projects_closed.png";
 import { Link } from "react-router-dom";
-import "./project.css";
+import "./folder.css";
 // import React from 'react'
 
-const Project = ({ id, img, link, title, description }) => {
+const Folder = ({ id, img, link, title, description }) => {
+
   return (
     <>
       <div className="project-grid-item">
-        <Link to={`/project/${id}`}>
-          <img src={Folder}></img>
+        <Link to={`/projects/${id}`}>
+          <img src={FolderIcon}></img>
         <div className="project-text">
           <span>{title}</span>
         </div>
@@ -18,4 +19,4 @@ const Project = ({ id, img, link, title, description }) => {
   );
 };
 
-export default Project;
+export default Folder;

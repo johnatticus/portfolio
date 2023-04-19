@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 // import { Modal } from "react-bootstrap";
 import "./projects.css";
 // import Examples from "../../components/examples/Examples"
-import Project from "../../components/project/Project"
+import Folder from "../../components/folder/Folder"
 import { projects } from "../../data";
 import Nav from "../../components/nav/Nav";
 
@@ -22,13 +22,14 @@ export const ProjectList = () => {
         </div>
         <div className="projects-grid-container">
           {projects.map((item, key) => (
-            <Project
+            <Folder
+            {...item}
               key={key}
-              id={item.id}
-              img={item.img}
-              link={item.link}
-              title={item.title}
-              description={item.description}
+              // id={item.id}
+              // img={item.img}
+              // link={item.link}
+              // title={item.title}
+              // description={item.description}
             />
           ))}
         </div>
