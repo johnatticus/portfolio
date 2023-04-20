@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import Nav from "../../components/nav/Nav";
+import Window from "../../components/window/Window";
 import { projects } from "../../data";
 
 const Project = ({ id, img, link, title, description }) => {
@@ -13,9 +14,10 @@ const Project = ({ id, img, link, title, description }) => {
         return (
             <>
             <Nav />
-            <p>{title}</p>
-            <img src={img}/> 
-            <p>{description}</p>
+            <Window
+                {...item}
+                key={i}
+            />
             </>
         )
     })

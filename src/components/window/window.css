@@ -1,4 +1,4 @@
-.projects-container {
+.window-container {
     /* border-radius: 10px 10px 0px 0px; */
     display: flex;
     justify-content: center;
@@ -6,7 +6,7 @@
     height: 80vh;
   }
 
-  .projects-window {
+  .window-window {
     margin: 1rem 1rem;
     border-left: 3px solid rgb(190, 190, 190);
     border-top: 3px solid rgb(190, 190, 190);
@@ -17,7 +17,7 @@
     height: 500px;
   }
   
-  .projects-browser-bar {
+  .window-browser-bar {
     height: 30px;
     background-color: #010081;
     color: white;
@@ -28,17 +28,17 @@
     /* z-index: 2; */
   }
 
-  .projects-browser-bar p {
+  .window-browser-bar p {
     padding-left: .5rem;
     margin-bottom: 0;
   }
-  .projects-max-min {
+  .window-max-min {
     display: flex ;
     flex-direction: row;
     padding-right: .5rem;
   }
   
-  .projects-circle-r {
+  .window-circle-r {
     width: 12px;
     height: 12px;
     /* border-radius: 50%; */
@@ -46,7 +46,7 @@
     background-color: rgb(190, 190, 190);
   }
 
-  .projects-circle-y {
+  .window-circle-y {
     width: 12px;
     height: 12px;
     /* border-radius: 50%; */
@@ -54,7 +54,7 @@
     background-color: rgb(190, 190, 190);
   }
 
-  .projects-circle-g {
+  .window-circle-g {
     width: 12px;
     height: 12px;
     /* border-radius: 50%; */
@@ -62,10 +62,11 @@
     background-color: rgb(190, 190, 190);
   }
 
-.projects-grid-container {
-  display: grid;
-  grid-template-columns: 200px 200px 200px;
-  justify-content: center;
-  gap: 2em;
-  padding: 1em;
+.window-content {
+    padding: .5rem;
+}
+
+img {
+    width: 200px;
+    height: 200px;
 }
