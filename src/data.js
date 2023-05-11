@@ -4,7 +4,7 @@ export const projects = [
     img: "https://raw.githubusercontent.com/johnatticus/friends-in-training/main/public/images/signUp.png",
     link: "https://afternoon-island-74965.herokuapp.com/login",
     title: "Friends in Training",
-    description: "Friends in Training modal. Made with js and mysql db.",
+    description: "Friends in Training modal. Made with js and mysql db.\nThis project was",
   },
   {
     id: "project2",
@@ -43,7 +43,7 @@ export const projects = [
   },
   {
     id: "project7",
-    img: "https://raw.githubusercontent.com/johnatticus/private-practice-v2/main/client/src/assets/screenshot.png?token=GHSAT0AAAAAABZRZ7RTE2R5Z5KQR4ILMT4OY7Y3BQQ",
+    img: "https://raw.githubusercontent.com/johnatticus/private-practice-v2/main/client/src/assets/screenshot.png",
     link: "https://johnatticus.github.io/Password_Generator/",
     title: "Private Practice",
     description: "this is example change me later",

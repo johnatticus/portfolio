@@ -4,12 +4,12 @@ import Nav from "../../components/nav/Nav";
 import Window from "../../components/window/Window";
 import { projects } from "../../data";
 
-const Project = ({ id, img, link, title, description }) => {
+const Project = () => {
     let params = useParams();
     let projectDetails = projects.filter(project => project.id === params.id ? project : null)
 
     let listProjectDetails = projectDetails.map((item, i) => {
-        let { id, img, link, title, description } = item
+        // let { id, img, link, title, description } = item
 
         return (
             <>

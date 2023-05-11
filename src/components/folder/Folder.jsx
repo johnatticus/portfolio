@@ -3,15 +3,15 @@ import { Link } from "react-router-dom";
 import "./folder.css";
 // import React from 'react'
 
-const Folder = ({ id, img, link, title, description }) => {
+const Folder = ({ ...item }) => {
 
   return (
     <>
       <div className="project-grid-item">
-        <Link to={`/projects/${id}`}>
+        <Link to={`/projects/${item.id}`}>
           <img src={FolderIcon}></img>
         <div className="project-text">
-          <span>{title}</span>
+          <span>{item.title}</span>
         </div>
         </Link>
       </div>
