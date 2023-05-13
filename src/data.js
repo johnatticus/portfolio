@@ -2,9 +2,10 @@ export const projects = [
   {
     id: "project1",
     img: "https://raw.githubusercontent.com/johnatticus/friends-in-training/main/public/images/signUp.png",
-    link: "https://afternoon-island-74965.herokuapp.com/login",
+    link: "https://github.com/johnatticus/FIT-v2",
     title: "Friends in Training",
-    description: "Friends in Training modal. Made with js and mysql db.\nThis project was",
+    description: "Full stack web application using handlebars for front end and mysql for the backend.\n\nA user is able to create an account and connect with other similar gym-goers.\n\n",
+    tech: ["express\n", "handlebars\n", "mysql\n", "sequelize\n", "bootstrap"]
   },
   {
     id: "project2",

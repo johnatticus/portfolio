@@ -21,10 +21,10 @@ export const ProjectList = () => {
             </div>
         </div>
         <div className="projects-grid-container">
-          {projects.map((item, key) => (
+          {projects.map((item) => (
             <Folder
             {...item}
-              key={key}
+              // key={key}
               // id={item.id}
               // img={item.img}
               // link={item.link}
