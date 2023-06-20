@@ -3,10 +3,8 @@ import { Route, Routes} from "react-router-dom";
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import Nav from "./components/nav/Nav";
-// import ProjectList from "./components/examplesList/ExamplesList";
 import ProjectList from "./pages/projects/Projects";
 import Project from "./pages/project/Project";
-// import Examples from "./components/examples/Examples";
 import Art from "./pages/art/Art";
 import Contact from "./pages/contact/Contact";
 import NotFound from "./pages/NotFound";
@@ -15,6 +13,7 @@ import "./app.css"
 function App() {
     return (
     <>
+    <Nav />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />

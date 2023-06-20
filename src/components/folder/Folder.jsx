@@ -9,14 +9,14 @@ const Folder = ({ ...item }) => {
 
   return (
     <>
-      <div className="project-grid-item">
+      <div className="folder-grid-item">
         {/* <Link to={`/projects/${item.id}`}> */}
         <img
           src={FolderIcon}
           onClick={() => setIsOpen(true)}
           alt="folder"
         ></img>
-        <div className="project-text">
+        <div className="folder-text">
           <span>{item.title}</span>
         </div>
         {/* </Link> */}

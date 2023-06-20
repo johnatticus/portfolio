@@ -1,16 +1,16 @@
-.project-grid-item {
+.folder-grid-item {
     text-align: center;
     margin: 1rem;
   }
 
-.project-grid-item img {
+.folder-grid-item img {
     width: 48px;
     height: 48px;
     cursor: pointer;
 }
 
-.project-text span {
-    background-color: rgb(141, 141, 141);
+.folder-text span {
+    background-color: var(--gray-141);
     color: white;
     padding: 1px 3px;
     font-size: small;

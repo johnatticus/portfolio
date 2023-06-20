@@ -20,13 +20,13 @@
   position: relative;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
   margin: 1rem 1rem;
-  border-left: 3px solid rgb(190, 190, 190);
-  border-top: 3px solid rgb(190, 190, 190);
-  border-right: 3px solid rgb(100, 100, 100);
-  border-bottom: 3px solid rgb(100, 100, 100);
-  background-color: rgb(235, 235, 235);
-  width: 700px;
-  height: 700px;
+  border-left: 3px solid var(--gray-190);
+  border-top: 3px solid var(--gray-190);
+  border-right: 3px solid var(--gray-100);
+  border-bottom: 3px solid var(--gray-100);
+  background-color: var(--gray-235);
+  width: 600px;
+  height: 500px;
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
   animation-name: fadeIn;
@@ -35,7 +35,7 @@
 
 .project-modal-header {
   height: 30px;
-  background-color: #010081;
+  background-color: var(--window-blue);
   color: white;
   font-size: medium;
   display: flex;
@@ -57,11 +57,11 @@
   width: 16px;
   height: 16px;
   margin: 3px;
-  background-color: rgb(190, 190, 190);
+  background-color: var(--gray-190);
 }
 
 .modal-header-square:hover {
-  background-color: rgb(131, 131, 131);
+  background-color: var(--gray-131);
 }
 
 .project-modal-body {

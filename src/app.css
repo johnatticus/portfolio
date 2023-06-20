@@ -1,3 +1,15 @@
+:root {
+  --gray-235: rgb(235, 235, 235);
+  --gray-190: rgb(190, 190, 190);
+  --gray-141: rgb(141, 141, 141);
+  --gray-131: rgb(131, 131, 131);
+  --gray-100: rgb(100, 100, 100);
+
+  --nav-blue: rgb(0, 0, 255);
+  --window-blue: rgb(1, 0, 129);
+
+}
+
 body { 
     background: url(../src/img/clouds.png) no-repeat center center fixed; 
     -webkit-background-size: cover;

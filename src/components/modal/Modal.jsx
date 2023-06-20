@@ -28,7 +28,8 @@ const ProjectModal = ({ setIsOpen, ...item }) => {
           <div className="project-modal-body">
             <p>{item.description}</p>
             <p><strong>tech used:</strong></p>
-              <p>{item.tech}</p>
+            <p>{item.tech}</p>
+            <p><a href={item.link} target="blank">repo</a></p>
           </div>
         </div>
       </div>

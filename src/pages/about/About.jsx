@@ -8,7 +8,6 @@ import Nav from "../../components/nav/Nav";
 const About = () => {
   return (
     <>
-    <Nav />
     <div className="a">
       <div className="a-left">
         {/* <div className="a-card bg"></div> */}

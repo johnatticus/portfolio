@@ -8,7 +8,6 @@ import Nav from "../../components/nav/Nav";
 const Art = () => {
   return (
     <>
-    <Nav />
     <div>
       <h1>Coming Soon</h1>
     </div>
