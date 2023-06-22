@@ -22,10 +22,11 @@ const Contact = () => {
               <div className="projects-circle-g"></div>
             </div>
         </div>
-
+        
         <div>
           CONTACT FORM HERE
         </div>
+        
       </div>
     </div>
     </>

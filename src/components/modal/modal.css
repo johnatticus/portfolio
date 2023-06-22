@@ -50,14 +50,16 @@
 .modal-max-min {
   display: flex ;
   flex-direction: row;
-  padding-right: .5rem;
+  padding-right: .25rem;
 }
 
 .modal-header-square {
   width: 16px;
   height: 16px;
   margin: 3px;
+  color: black;
   background-color: var(--gray-190);
+  cursor: pointer;
 }
 
 .modal-header-square:hover {

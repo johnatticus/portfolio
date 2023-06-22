@@ -7,7 +7,11 @@
 
   --nav-blue: rgb(0, 0, 255);
   --window-blue: rgb(1, 0, 129);
+}
 
+* {
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
 }
 
 body { 
